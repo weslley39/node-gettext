@@ -21,7 +21,8 @@
     "url": "http://github.com/andris9/node-gettext/blob/master/LICENSE"
   }],
   "dependencies": {
-    "gettext-parser": "^1.1.0"
+    "gettext-parser": "1.1.1",
+    "lodash":"3.10.1"
   },
   "devDependencies": {
     "chai": "^1.10.0",
