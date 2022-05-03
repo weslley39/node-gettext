@@ -1,12 +1,14 @@
 {
   "name": "node-gettext",
   "description": "Gettext client for Node.js to use .mo files for I18N",
-  "version": "1.0.1",
+  "version": "0.2.1",
   "author": "Andris Reinman",
-  "maintainers": [{
-    "name": "andris",
-    "email": "andris@node.ee"
-  }],
+  "maintainers": [
+    {
+      "name": "andris",
+      "email": "andris@node.ee"
+    }
+  ],
   "homepage": "http://github.com/andris9/node-gettext",
   "repository": {
     "type": "git",
@@ -16,13 +18,15 @@
     "test": "grunt"
   },
   "main": "./lib/gettext",
-  "licenses": [{
-    "type": "MIT",
-    "url": "http://github.com/andris9/node-gettext/blob/master/LICENSE"
-  }],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/andris9/node-gettext/blob/master/LICENSE"
+    }
+  ],
   "dependencies": {
     "gettext-parser": "1.1.1",
-    "lodash":"3.10.1"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "chai": "^1.10.0",
